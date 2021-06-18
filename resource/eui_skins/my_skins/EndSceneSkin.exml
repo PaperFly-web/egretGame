@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="skins.QuestionSkin"
+	 width="640.172"
+	height="1136" xmlns:e="http://ns.egret.com/eui">
+	<e:Image id="bg" width="640.51" height="1124.19" x="-0.476" y="5.923" source="dragon_jpg"/>
+	<e:Label id="endLabel" text="Label" x="327.67" y="528.938" size="24" textColor="0x638013" width="469.287" height="261.519" verticalAlign="middle" textAlign="center" anchorOffsetX="235" anchorOffsetY="132"/>
+	<e:Button id="endBtnMain" x="320.854" y="764.222" label="Again" anchorOffsetX="51" anchorOffsetY="50"/>
+	<e:Image id="topImg" width="300" height="300" x="320.645" y="211.5" source="dragon_end_png" anchorOffsetX="150" anchorOffsetY="150" visible="false"/>
+</e:Skin>

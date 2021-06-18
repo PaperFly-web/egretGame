@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="skins.QuestionSkin"
+	 width="640"
+	height="1140" xmlns:e="http://ns.egret.com/eui">
+	<e:Image id="bg" width="640.634" height="1144.375" x="-0.636" y="-0.855" source="dragon_jpg"/>
+	<e:Label id="itemLabel" text="Label" x="284.109" y="200.489" size="30" textColor="0x638013" width="469.287" height="129.012" anchorOffsetX="234.5" anchorOffsetY="64.5" verticalAlign="top"/>
+	<e:RadioButton id="itemA" label="RadioButton" y="290" value="A" width="440" height="46" x="89"/>
+	<e:RadioButton id="itemB" label="RadioButton" y="369.614" value="B" width="440" height="46" x="89"/>
+	<e:RadioButton id="itemC" label="RadioButton" y="446" value="C" width="440" height="46" x="89"/>
+	<e:RadioButton id="itemD" label="RadioButton" y="524.006" value="D" width="440" height="46" x="89"/>
+	<e:Button id="btnPre" x="201.634" y="689.597" skinName="skins.ButtonSkin" anchorOffsetX="50" anchorOffsetY="50" rotation="270.678"/>
+	<e:Button id="btnNext" x="463.235" y="693.075" anchorOffsetX="50" anchorOffsetY="50" rotation="89.996"/>
+	<e:Button id="btnMain" x="72.438" y="68.233" anchorOffsetX="50" anchorOffsetY="50"/>
+	<e:Button id="btnSubmit" label="提交" x="299.339" y="939.236" visible="false" anchorOffsetX="50" anchorOffsetY="50"/>
+	<e:Image id="btnBgMusic" width="70" height="70" x="565.445" y="69.525" source="musicPlay_png" anchorOffsetX="35" anchorOffsetY="35"/>
+</e:Skin>
