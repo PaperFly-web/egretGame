@@ -9,9 +9,9 @@
         -  放着各种实例类
 - scene
         -  游戏中的场景都存放在这里
-
-## 3.项目整体架构
 ![1](https://github.com/PaperFly-web/asset/blob/master/img/egret_game/1.png?raw=true)
+## 3.项目整体架构
+![1](https://github.com/PaperFly-web/asset/blob/master/img/egret_game/2.png?raw=true)
 ## 4.部分关键代码解释
 - QuestionManager.ts部分
 -  我们的问题，不是一个死的数据，而是从数据源中随机抽取5个问题在页面中进行演示
@@ -49,15 +49,15 @@ public static GetRandomNums(Min, Max,num):Array<number> {
     我通过改变元素的锚点位置，让其在元素的中间
     然后获取舞台的宽度，让元素的位置根据宽度进行自适应
     如下图
-
+![1](https://github.com/PaperFly-web/asset/blob/master/img/egret_game/3.png?raw=true)
 - 使用本地存储，记录用户的答题最高历史记录
 # 5.如何使用
-主页面
-点击开始   这个按钮就是开始游戏
-游戏介绍  这个按钮，点击后就有有关本次游戏的介绍
-
-游戏运行页面
-
-结束页面
-点击Agin   回到主页面
-
+- 主页面
+        - 点击开始   这个按钮就是开始游戏
+        - 游戏介绍  这个按钮，点击后就有有关本次游戏的介绍
+![1](https://github.com/PaperFly-web/asset/blob/master/img/egret_game/4.png?raw=true)
+- 游戏运行页面
+![1](https://github.com/PaperFly-web/asset/blob/master/img/egret_game/5.png?raw=true)
+- 结束页面
+        -点击Agin   回到主页面
+![1](https://github.com/PaperFly-web/asset/blob/master/img/egret_game/6.png?raw=true)
