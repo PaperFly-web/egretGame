@@ -28,7 +28,11 @@ class QuestionScene  extends eui.Component implements eui.UIComponent{
         this.bg.width=GameUtil.getStageWidth();
         this.bg.height=GameUtil.getStageHeight();
 
+        this.itemLabel.width=GameUtil.getStageWidth()*0.8;
+        this.itemLabel.anchorOffsetX=this.itemLabel.width/2;//保持锚点始终在中间
         this.itemLabel.x=GameUtil.getStageWidth()/2;
+        this.itemLabel.size=GameUtil.getStageWidth()/10/2*1.1;
+
         this.btnNext.x=GameUtil.getStageWidth()/4*3;
         this.btnPre.x=GameUtil.getStageWidth()/4;
         this.btnBgMusic.x=GameUtil.getStageWidth()*0.9;
@@ -201,4 +205,7 @@ class QuestionScene  extends eui.Component implements eui.UIComponent{
         }else{
             this.btnNext.enabled=true;//下一题按钮不可用
             this.bg.source="dragon_jpg";//最后一题了，切换背景图片
-            this.btnSubmit.vi
+            this.btnSubmit.visible=false;//不显示提交按钮
+        }
+    }
+}
