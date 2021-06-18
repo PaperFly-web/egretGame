@@ -55,9 +55,14 @@ public static GetRandomNums(Min, Max,num):Array<number> {
 - 主页面
         - 点击开始   这个按钮就是开始游戏
         - 游戏介绍  这个按钮，点击后就有有关本次游戏的介绍
+     
 ![1](https://github.com/PaperFly-web/asset/blob/master/img/egret_game/4.png?raw=true)
+
 - 游戏运行页面
+
 ![1](https://github.com/PaperFly-web/asset/blob/master/img/egret_game/5.png?raw=true)
+
 - 结束页面
         -点击Agin   回到主页面
+        
 ![1](https://github.com/PaperFly-web/asset/blob/master/img/egret_game/6.png?raw=true)
