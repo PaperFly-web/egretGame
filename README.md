@@ -9,6 +9,7 @@
         -  放着各种实例类
 - scene
         -  游戏中的场景都存放在这里
+        
 ![1](https://github.com/PaperFly-web/asset/blob/master/img/egret_game/1.png?raw=true)
 ## 3.项目整体架构
 ![1](https://github.com/PaperFly-web/asset/blob/master/img/egret_game/2.png?raw=true)
