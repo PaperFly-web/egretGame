@@ -15,7 +15,7 @@
 ## 4.部分关键代码解释
 - QuestionManager.ts部分
 -  我们的问题，不是一个死的数据，而是从数据源中随机抽取5个问题在页面中进行演示
-```
+```javaScript
 public GetQuestion():Array<QuestionItem>{
         let elements=RES.getRes("questions_json");
         let randoms=GameUtil.GetRandomNums(0,9,5);
@@ -43,7 +43,7 @@ public static GetRandomNums(Min, Max,num):Array<number> {
     //console.log(nums);
     return nums;
 }
-```javaScript
+```
 
 - 场景中的元素位置自适应
     我通过改变元素的锚点位置，让其在元素的中间
