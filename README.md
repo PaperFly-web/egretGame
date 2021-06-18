@@ -11,7 +11,7 @@
         -  游戏中的场景都存放在这里
 
 ## 3.项目整体架构
-[https://github.com/PaperFly-web/asset/blob/master/img/egret_game/1.png?raw=true]
+![1](https://github.com/PaperFly-web/asset/blob/master/img/egret_game/1.png?raw=true)
 ## 4.部分关键代码解释
 - QuestionManager.ts部分
 -  我们的问题，不是一个死的数据，而是从数据源中随机抽取5个问题在页面中进行演示
